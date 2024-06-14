@@ -23,10 +23,10 @@ Some of the HTML tags mentioned include:
 
 These tags are used to structure and format content on web pages, making them visually appealing and functional
 
-![gambar](tagimg.png) tag img
+![gambar](tagimg.png) img tag
 
-![gambar](tagulli.png) tag ul dan li
+![gambar](tagulli.png) ul and li tag
 
-![gambar](tagtextemail.png) tag text dan email
+![gambar](tagtextemail.png) text and email tag
 
-![gambar](tagdropbox.png) tag select
+![gambar](tagdropbox.png) select tag
