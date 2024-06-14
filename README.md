@@ -3,31 +3,25 @@
 
 ## Checkpoint #1 
 
-menggunakan beberapa tag yang membantu dalam pembentukan structure html. 
+Using several tags that help in the formation of HTML structure.
 
-beberapa diantaranya adalah:
+Some of the HTML tags mentioned include:
 
-- tag img yang berfungnsi untuk menampilkan gambar yang akan digunakann
+- img: used to embed images in a webpage.
 
-- tag ul dann li untuk untuk membuat list menu yang dibutuhkan
+- ul and li: used to create unordered lists.
 
-- tag a untuk melakukan link 
+- a: used to create hyperlinks.
 
-- tag dl, dd, dt untuk membuat list deskripsi dan isi deskripsi
+- dl, dd, and dt: used to create description lists.
 
-- tag input type text untuk menuliskan text
+- input type="text", type="email", type="number", and type="submit": used to input text, email addresses, numbers, and submit forms, respectively.
 
-- tag input type email untuk mennuliskan email
+- textarea: used to input text with a larger size.
 
-- tag input type number untuk memasukkan nomor
+- select: used to create dropdown boxes.
 
-- tag input type sumbit
-
-- tag textarea untuk menuliskan text dengan ukuran yang lebih besar
-
-- tag select untuk membuat dropbox
-
-beberapa contoh tampilan dari tag:
+These tags are used to structure and format content on web pages, making them visually appealing and functional
 
 ![gambar](tagimg.png) tag img
 
