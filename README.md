@@ -3,6 +3,8 @@
 
 ## Checkpoint #1 
 
+### Link : https://revou-fsse-5.github.io/module-1-edwhinr/
+
 Using several tags that help in the formation of HTML structure.
 
 Some of the HTML tags mentioned include:
