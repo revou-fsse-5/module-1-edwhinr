@@ -29,10 +29,10 @@ beberapa diantaranya adalah:
 
 beberapa contoh tampilan dari tag:
 
-![gambar](../task1/tagimg.png) tag img
+![gambar](tagimg.png) tag img
 
-![gambar](../task1/tagulli.png) tag ul dan li
+![gambar](tagulli.png) tag ul dan li
 
-![gambar](../task1/tagtextemail.png) tag text dan email
+![gambar](tagtextemail.png) tag text dan email
 
-![gambar](../task1/tagdropbox.png) tag select
+![gambar](tagdropbox.png) tag select
