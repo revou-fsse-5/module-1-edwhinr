@@ -32,3 +32,9 @@ These tags are used to structure and format content on web pages, making them vi
 ![gambar](tagtextemail.png) text and email tag
 
 ![gambar](tagdropbox.png) select tag
+
+Add new background for content
+
+![gambar](bghome.jpg) The size and position of the background will adjust accordingly.
+
+and add new feature for menu.
