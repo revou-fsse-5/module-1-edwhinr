@@ -52,7 +52,7 @@
 }
 
 .content .home{
-    background: url(./bghome.jpg);
+    background: url(bghome.jpg);
     color: white;
     background-position: center;
     background-size: cover;
