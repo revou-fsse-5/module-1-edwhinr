@@ -3,78 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Module 1 Assignment</title>
 </head>
 <body>
     <div class="container">
         <div class="header">
             <div class="logo">
-                <img width="80px" height="80px" src="logo.jpg" alt="">
+                <h1>LOGO</h1>
             </div>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn">
+              <span class="navicon" />
+            </label>
             <div class="menu">
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#galery">Galery</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#headlinehome">Home</a></li>
+                    <li><a href="#headlinegalery">Galery</a></li>
+                    <li><a href="#headlinecontact">Contact Us</a></li>
                 </ul>
             </div>
         </div>
         <div class="content">
-            <h2 id="home">Angkringan Sedulur</h2>
-            <dl>
-                <dt><h3>Konsep</h3></dt>
-                <dd>Sedulur Angkringan merupakan angkringan di Jogja yang mengusung konsep tradisional. Sajian dan masakan khas tradisional 
-                    <br>angkringan Jogja akan menemani Anda. Anda dapat memilih menggunakan meja ataupun lesehan untuk menikmati sajian anda 
-                    <br>bersama dengan keluarga.</dd>
-                <dt><h3>Menu</h3></dt>
-                <dd>Menu yang disajikan berupa makanan dan jajan tradisional, seperti: nasi kucing, tahu dan tempe bacem, gorengan, aneka 
-                    <br>macam sate, dan jenis jajan lainnya. Untuk minuman yang disediakan antara lain: teh, jeruk, jahe, susu, kopi, dan lain-lain</dd>
-                <dt><h3>Operasional</h3></dt>
-                <dd>Jalan Ringroad Utara, depan POM Bensin UTY.
-                    <br>Buka setiap hari jam 5 sore hingga jam 11 malam.</dd>
-            </dl>
-            <h2 id="galery">Galery</h2>
-            <div class="foto">
-                <a href="#" class="ang">
-                    <img width="277" height="182" src="angkringan1.jpg" alt="">
-                </a>
-                <a href="#" class="ang">
-                    <img width="277" height="182" src="angkringan2.jpg" alt="">
-                </a>
-                <a href="#" class="ang">
-                    <img width="277" height="182" src="angkringan3.jpg" alt="">
-                </a>
-                <a href="#" class="ang">
-                    <img width="277" height="182" src="angkringan4.jpg" alt="">
-                </a>
-                <a href="#" class="ang">
-                    <img width="277" height="182" src="angkringan5.jpg" alt="">
-                </a>
-                <a href="#" class="ang">
-                    <img width="277" height="182" src="angkringan6.jpg" alt="">
-                </a>
+            <div class="home">
+                <h1 id="headlinehome">Angkringan Sedulur</h1>
+                <dl>
+                    <dt><h3>Konsep</h3></dt>
+                    <dd>Sedulur Angkringan merupakan angkringan di Jogja yang mengusung konsep tradisional. Sajian dan masakan khas tradisional 
+                        <br>angkringan Jogja akan menemani Anda. Anda dapat memilih menggunakan meja ataupun lesehan untuk menikmati sajian anda 
+                        <br>bersama dengan keluarga.</dd>
+                    <dt><h3>Menu</h3></dt>
+                    <dd>Menu yang disajikan berupa makanan dan jajan tradisional, seperti: nasi kucing, tahu dan tempe bacem, gorengan, aneka 
+                        <br>macam sate, dan jenis jajan lainnya. Untuk minuman yang disediakan antara lain: teh, jeruk, jahe, susu, kopi, dan lain-lain</dd>
+                    <dt><h3>Operasional</h3></dt>
+                    <dd>Jalan Ringroad Utara, depan POM Bensin UTY.
+                        <br>Buka setiap hari jam 5 sore hingga jam 11 malam.</dd>
+                </dl>
             </div>
-            <h2 id="contact">Contact Us</h2>
-            <form action="#" method="GET">
-                Nama<br></br>
-                <input type="text" name="nama" placeholder="Masukkan Nama"><br></br>
-                Email<br></br>
-                <input type="email" name="email" placeholder="Masukkann Email"><br></br>
-                Booking<br></br>
-                <select name="booking" id="book">
-                    <optgroup label="Posisi">
-                      <option value="meja">Meja</option>
-                      <option value="lesehan">Lesehan</option>
-                    </optgroup>
-                </select><br><br>
-                Jumlah<br><br>
-                <input type="number" min="1" max="5" name="jumlah"><br><br>
-                Telp/HP<br><br>
-                <input type="text" name="Telp" placeholder="Masukkan Nomor Telp/HP"><br></br>
-                Tambahan Lain<br></br>
-                <textarea name="tambahan"></textarea><br><br>
-                <input type="submit" name="submit" value="Input">
-            </form>
+            <div class="galery">    
+                <h2 id="headlinegalery">Galery</h2>
+                <div class="foto">
+                    <table>
+                        <tr>
+                            <td><img width="260" height="200" src="angkringan1.jpg" alt=""></td>
+                            <td><img width="260" height="200" src="angkringan2.jpg" alt=""></td>
+                            <td><img width="260" height="200" src="angkringan3.jpg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td><img width="260" height="200" src="angkringan4.jpg" alt=""></td>
+                            <td><img width="260" height="200" src="angkringan5.jpg" alt=""></td>
+                            <td><img width="260" height="200" src="angkringan6.jpg" alt=""></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="contact">    
+                <h2 id="headlinecontact">Contact Us</h2>
+                <form action="#" method="GET">
+                    Nama
+                    <input type="text" name="nama" placeholder="Masukkan Nama"><br></br>
+                    Email
+                    <input type="email" name="email" placeholder="Masukkann Email"><br></br>
+                    Booking
+                    <select name="booking" id="book">
+                        <optgroup label="Posisi">
+                          <option value="meja">Meja</option>
+                          <option value="lesehan">Lesehan</option>
+                        </optgroup>
+                    </select>
+                    Jumlah
+                    <input type="number" min="1" max="5" name="jumlah"><br><br>
+                    Telp/HP
+                    <input type="text" name="Telp" placeholder="Masukkan Nomor Telp/HP"><br></br>
+                    Tambahan Lain
+                    <textarea name="tambahan"></textarea><br><br>
+                    <input type="submit" name="submit" value="Input">
+                </form>
+            </div>
         </div>
         <div class="footer">
             <div class="ftext">
